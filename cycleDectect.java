@@ -11,7 +11,7 @@ import java.util.HashSet;
  * 
  */
 
-class Main {
+class CycleDetect {
     public static void main(String[] args) {
         // directed graph > string key, list of string neighbors
         Map<String, List<String>> graph = new HashMap<>();
