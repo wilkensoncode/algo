@@ -1,3 +1,5 @@
+package heap;
+
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.Arrays;
@@ -7,6 +9,7 @@ public class MinHeap {
 
     public static void main(String[] args) {
         int[] ar = { 1000, 100, 458, 45, 2000, 12, 0, 12, 78, 96, 987, 1 };
+
         List<Integer> arr = Arrays.stream(ar).boxed().collect(Collectors.toList());
         PriorityQueue<Integer> minHeap = minHeap(arr);
 
